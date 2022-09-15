@@ -22,19 +22,19 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>3+ years of experience</small>
+              <small>3 years of engineering experience</small>
             </article>
 
             <article className="about__card">
               <FiUsers className='about_icon' />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>blank</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>blank</small>
             </article>
           </div>
 
@@ -42,7 +42,7 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vitae recusandae accusantium odit, blanditiis quae aspernatur doloremque consectetur tempore nulla quaerat nesciunt, consequatur eos aliquam quia. Sed fugit sequi nesciunt.
           </p>
           
-          <a href="#contact" className='btn btn-primary'>Let's talk</a>
+          <a href="#contact" className='btn btn-primary'>Contact Me</a>
         </div>
       </div>
     </section>
