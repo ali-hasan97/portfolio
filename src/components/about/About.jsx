@@ -1,13 +1,12 @@
 import './about.css' 
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {GiSkills} from 'react-icons/gi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
@@ -26,23 +25,26 @@ const About = () => {
             </article>
 
             <article className="about__card">
-              <FiUsers className='about_icon' />
-              <h5>Clients</h5>
-              <small>blank</small>
+              <GiSkills className='about_icon' />
+              <h5>Skills</h5>
+              <small>relevant to both front-end and back-end</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>blank</small>
+              <small>demonstrating experience with several technologies</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vitae recusandae accusantium odit, blanditiis quae aspernatur doloremque consectetur tempore nulla quaerat nesciunt, consequatur eos aliquam quia. Sed fugit sequi nesciunt.
+            I worked as a structural engineer for 3 years, managing and designing several large scale projects that include schools, hospitals, and offices. 
+            Having a long-standing interest in programming, I decided to take the plunge and study computer science full-time. 
+            This has allowed me to get my computer science fundamentals down, and create several projects that demonstrate my ability as a developer. 
+            Take a look!
           </p>
           
-          <a href="#contact" className='btn btn-primary'>Contact Me</a>
+          <a href="#portfolio" className='btn btn-primary'>View Portfolio!</a>
         </div>
       </div>
     </section>

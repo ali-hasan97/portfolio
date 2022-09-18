@@ -20,6 +20,26 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    position: relative;
+}
+
+.portfolio__item-image-content {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    aspect-ratio: 1.33;
+    max-width: 480px;
+    max-height: 360px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(78, 78, 78, 0.877);
+    transition-duration: 500ms;
+}
+
+.portfolio__item-image-content:hover {
+    opacity: 1;
 }
 
 .portfolio__item h3 {

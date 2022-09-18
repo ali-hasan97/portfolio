@@ -1,86 +1,111 @@
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import {BsCheck} from 'react-icons/bs'
 
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h2>Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Front-end Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-              </div>
-            </article>
-            
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Bootstrap</h4>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React</h4>
-              </div>
-            </article>
+        {/* <article className="experience">
+          <div className="experience__head">
+            <h3>UI/UX Design</h3>
           </div>
-        </div>
-        {/* END OF FRONT-END */}
 
-        <div className="experience__backend">
-          <h3>Back-end Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Python</h4>
-              </div>
-            </article>
-            
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MongoDB</h4>
-              </div>
-            </article>
+          <ul className="experience__list">
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+          </ul>
+        </article> */}
+        {/* END OF UI/UX */}
 
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Express</h4>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>NodeJS</h4>
-              </div>
-            </article>
+        <article className="experience">
+          <div className="experience__head">
+            <h3>L.A. Fuess Partners</h3>
+            <h5>Structural Engineer</h5>
+            <h5>06/2019 – 04/2022</h5>
           </div>
-        </div>
+
+          <ul className="experience__list">
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Independently managed $10M-$60M projects from start to finish, overseeing both the design and construction phases.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Created spreadsheets to automate vibration analysis, joist reinforcing analysis, etc.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Worked with contractors, architects, and several other disciplines to deliver the best possible product for projects. Coordinated critical items to avoid any surprises that would affect the budget, effectively communicating our wants and needs with other disciplines to keep all parties satisfied.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Applied logical and analytical skills to produce creative solutions for unique, time-sensitive construction problems.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Performed complex analyses on large-scale structures to provide strong, efficient designs</p>
+            </li>
+          </ul>
+        </article>
+        {/* WEB DEVELOPMENT */}
+
+        {/* <article className="experience">
+          <div className="experience__head">
+            <h3>Content Creation</h3>
+          </div>
+
+          <ul className="experience__list">
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BsCheck className='experience__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+          </ul>
+        </article> */}
+        {/* END OF CONTENT CREATION */}
       </div>
     </section>
   )
