@@ -85,7 +85,7 @@ const Skills = () => {
               </div>
             </article>
             
-            <article className="skills__details">
+            {/* <article className="skills__details">
               <div>
                 <DiMongodb size={30} className="skills__details-icon" />
                 <h4>MongoDB</h4>
@@ -111,7 +111,7 @@ const Skills = () => {
                 <FaNodeJs size={30} className="skills__details-icon" />
                 <h4>NodeJS</h4>
               </div>
-            </article>
+            </article> */}
 
             <article className="skills__details">
               <div>
