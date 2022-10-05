@@ -39,7 +39,7 @@ const progress = [
     id: 1,
     image: IMG4,
     title: 'Country Look-Up',
-    description: "React app that allows users to look up a country using an API. The country's information such as its capital, flag, and even its capital's current weather (generated from a second API) is provided. This page has not been styled...yet!",
+    description: "Responsive React app that allows users to look up a country using an API. The country's information such as its capital, flag, and even its capital's current weather (generated from a second API) is provided. This page has not been styled...yet!",
     github: 'https://github.com/ali-hasan97/country-lookup',
     demo: 'https://ali-hasan97.github.io/country-lookup/'
   },

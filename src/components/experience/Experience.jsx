@@ -55,19 +55,19 @@ const Experience = () => {
             </li>
             <li>
               <BsCheck className='experience__list-icon' />
-              <p>Created spreadsheets to automate vibration analysis, joist reinforcing analysis, etc.</p>
+              <p>Engineered strong but efficient structural designs for large schools, hospitals, and offices.</p>
             </li>
             <li>
               <BsCheck className='experience__list-icon' />
-              <p>Worked with contractors, architects, and several other disciplines to deliver the best possible product for projects. Coordinated critical items to avoid any surprises that would affect the budget, effectively communicating our wants and needs with other disciplines to keep all parties satisfied.</p>
+              <p>Created spreadsheets to automate manual analyses, improving analysis times by 94%.</p>
             </li>
             <li>
               <BsCheck className='experience__list-icon' />
-              <p>Applied logical and analytical skills to produce creative solutions for unique, time-sensitive construction problems.</p>
+              <p>Maintained constant communication with contractors, architects, and other disciplines to ensure our team delivers the best possible product for projects. Coordinated all critical items with them to avoid any surprises that would affect the budget.</p>
             </li>
             <li>
               <BsCheck className='experience__list-icon' />
-              <p>Performed complex analyses on large-scale structures to provide strong, efficient designs</p>
+              <p>Demonstrated strong analytical and problem-solving skills for time-sensitive construction issues.</p>
             </li>
           </ul>
         </article>
