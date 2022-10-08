@@ -9,7 +9,7 @@ import {DiPython} from 'react-icons/di'
 import {DiDjango} from 'react-icons/di'
 import {SiFlask} from 'react-icons/si'
 import {DiMongodb} from 'react-icons/di'
-import {SiMysql} from 'react-icons/si'
+import {SiPostgresql} from 'react-icons/si'
 import {SiExpress} from 'react-icons/si'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiAmazonaws} from 'react-icons/si'
@@ -84,6 +84,13 @@ const Skills = () => {
                 <h4>Flask</h4>
               </div>
             </article>
+                        
+            <article className="skills__details">
+              <div>
+                <SiPostgresql size={30} className="skills__details-icon" />
+                <h4>PostgreSQL</h4>
+              </div>
+            </article>
             
             <article className="skills__details">
               <div>
@@ -105,13 +112,6 @@ const Skills = () => {
                 <h4>NodeJS</h4>
               </div>
             </article> 
-            
-            {/* <article className="skills__details">
-              <div>
-                <SiMysql size={30} className="skills__details-icon" />
-                <h4>MySQL</h4>
-              </div>
-            </article>*/}
 
             <article className="skills__details">
               <div>

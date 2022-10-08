@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Blogging Blobs',
-    description: "Full-stack blog site created using Python’s Django framework for the back-end and some Bootstrap for the front-end. Deployed using AWS (Elastic Beanstalk, EC2, S3).",
+    description: "Full-stack blog site created using Python’s Django framework. Utilizes a PostgreSQL database on AWS RDS to store info. Deployed using AWS (Elastic Beanstalk, EC2, S3, RDS).",
     github: 'https://github.com/ali-hasan97/Django-Blog',
     demo: 'https://bloggingblobs.com'
   },
